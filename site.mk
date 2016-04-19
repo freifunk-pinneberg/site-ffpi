@@ -31,6 +31,19 @@ USB_PACKAGES_BASIC := \
 	kmod-usb-core \
 	kmod-usb2
 
+# support for USB UMTS/3G devices 
+USB_PACKAGES_3G := \
+	kmod-usb-serial \
+	kmod-usb-serial-wwan \
+	kmod-usb-serial-option \
+	chat \
+	ppp
+
+# support for USB GPS devices
+USB_PACKAGES_GPS := \
+	kmod-usb-acm \
+	ugps
+
 # support for HID devices (keyboard, mouse, ...)
 USB_PACKAGES_HID := \
 	kmod-usb-hid \
